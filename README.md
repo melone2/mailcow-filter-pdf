@@ -25,7 +25,7 @@ sudo docker compose restart dovecot-mailcow
 # Sieve parser
 
 From your mailcow docker folder change to the following directory:
-`./data/web/inc/lib/sieve`
+`./data/web/inc/lib/sieve/extensions`
 
 Insert the files `mime.xml` and `foreverypart.xml` from this Github repository into that directory.
 This will extend the mailcow sieve parser (which checks your sieve script before saving) to allow the inclusion of *mime* and *foreverypart* extensions in your sieve script.
