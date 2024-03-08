@@ -34,8 +34,8 @@ No restarts are neccecary after this step.
 
 # Sieve script
 
-Now go to the mailcow dashboard in your browser.
-Go to *E-Mail > configuration > filter* and add or open a sieve-filter for the desired mailbox.
+Now open the mailcow dashboard in your browser.
+Go to *E-Mail > configuration > filter* and add or open a sieve-filter script for the desired mailbox.
 
 Add the following content and adjust it to suit your needs (replace copycat@example.com):
 ```
